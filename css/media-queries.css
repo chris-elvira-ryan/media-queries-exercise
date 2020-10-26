@@ -113,3 +113,30 @@ footer>p{
     margin-top: auto;
     font-size: xx-small;
 }
+
+@media screen and (min-width: 992px) {
+    html {
+        background-color: black;
+        align-items: center;
+    }
+    body {
+        background-color: white;
+        max-width: 60%;
+        justify-content: center;
+        margin: 4em auto;
+    }
+
+    .alert-info {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    li {
+        display: flex;
+        background-color: white;
+    }
+}
